@@ -14,7 +14,7 @@ def parser_recipient():
         print(e)
     except Exception as e:
         print(e)
-    return lines
+    return list(set(lines))
 
 
 def parser_account():
